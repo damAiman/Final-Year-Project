@@ -116,17 +116,14 @@ The system is now feature-complete for Botol Anggun Sdn. Bhd.
 
    | Role  | Username     | Password   |
    |-------|--------------|------------|
-   | Admin | `nurul.huda` | `admin123` |
-   | Staff | `ali.rahman` | `staff123` |
+   | Admin | `nish_admin` | `admin123` |
+   | Staff | `adam_staff` | `staff123` |
 
 That's it — every module is fully functional against the real database from this point on.
 
 ## Using the QR scanner
 
 Browsers only allow camera access on a **secure origin**. In practice:
-
-- ✅ `http://localhost/smart-stock/scan.php` — works (localhost is treated as secure)
-- ❌ `http://192.168.1.5/smart-stock/scan.php` — camera blocked (plain HTTP over the network)
 
 So for the demo, run it on the same machine via `localhost`. If you need to demo from a phone on
 the same Wi-Fi, either set up HTTPS, or use the **"Type the code printed under the QR"** link on
